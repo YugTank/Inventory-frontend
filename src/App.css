@@ -1,0 +1,135 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Inter', 'Manrope', sans-serif;
+  background: #eef2f7;
+  color: #1e293b;
+  line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+  background: #1e293b; /* deep slate */
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h3 {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.navbar a {
+  margin-right: 16px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar button {
+  margin-left: auto;
+  width: auto;
+  padding: 6px 12px;
+  background: #dc2626;
+  border-radius: 4px;
+}
+
+/* Container */
+.box {
+  background: white;
+  padding: 24px;
+  margin: 40px auto;
+  width: 650px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: none;
+  background: #2563eb; /* deep blue */
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Product Cards */
+.item {
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+/* Product layout */
+.item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.item p {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* Flex inside item */
+.item div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button override */
+.item button {
+  background: #ef4444;
+  padding: 6px 10px;
+}
+
+.item button:hover {
+  background: #dc2626;
+}
